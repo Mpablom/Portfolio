@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aprendiendo_angular';
+  nombre:string= "Pablo Moya"
 }
+

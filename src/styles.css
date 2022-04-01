@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+.imagen_cabecera{
+      width: 100%;
+}
+#cabecera{
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+h2{
+  margin: 10px;
+}
+p {
+  margin: 20px;
+}
+.dropdown{
+  text-align: center;
+}
+#perfil{
+  width: 150px;
+  height: 150px;
+  border-radius:100px;
+  border:4px groove rgb(0, 0, 236);
+}
+ul{
+  list-style-type: none;
+  margin: 20;
+  padding: 10;
+}
+ol{
+  list-style-type: none;
+  margin: 20;
+  padding: 10;
+}
+.inicio-btn{
+  background: rgb(88, 88, 182);
+  color: white;
+  padding: 2px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+}
+.inicio-btn:hover {
+  background-color: #1e0b61;
+  color: white;
+}
+#recuadro{
+  border-radius: 8px;
+  border:1px solid lightgrey ;
+  margin: 3px;
+}
