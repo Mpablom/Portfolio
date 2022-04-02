@@ -21,12 +21,6 @@ p {
 .dropdown{
   text-align: center;
 }
-#perfil{
-  width: 150px;
-  height: 150px;
-  border-radius:100px;
-  border:4px groove rgb(0, 0, 236);
-}
 ul{
   list-style-type: none;
   margin: 20;

@@ -7,7 +7,10 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { DatosPersonalesComponent } from './componentes/datos-personales/datos-personales.component';
 import { FormacionAcademicaComponent } from './componentes/formacion-academica/formacion-academica.component';
 import { ExperienciaLaboralComponent } from './componentes/experiencia-laboral/experiencia-laboral.component';
-import { DatosInteresComponent } from './componentes/datos-interes/datos-interes.component'
+import { DatosInteresComponent } from './componentes/datos-interes/datos-interes.component';
+import { LogosComponent } from './componentes/logos/logos.component';
+import { BannerComponent } from './componentes/banner/banner.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { DatosInteresComponent } from './componentes/datos-interes/datos-interes
     DatosPersonalesComponent,
     FormacionAcademicaComponent,
     ExperienciaLaboralComponent,
-    DatosInteresComponent
+    DatosInteresComponent,
+    LogosComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
